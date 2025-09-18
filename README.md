@@ -107,7 +107,7 @@
 <div align="center">
 <p style="margin:0">
   <img src="images/2bullets852%20on%20Planet%20Minecraft.gif" alt="vibe" width="50" style="vertical-align:middle;margin-left:8px;">
-  <strong>(ㅇ_ㅇ)</strong>
+  <strong>👇( ͡~ ͜ʖ ͡°)Sign my guestbook(▀̿Ĺ̯▀̿ ̿)┏ (゜ω゜)=👇U•ェ•*U(☞ﾟヮﾟ)👇</strong>
   <img src="images/2bullets852%20on%20Planet%20Minecraft.gif" alt="vibe" width="50" style="vertical-align:middle;margin-left:8px;">
 </p>
 </div>
