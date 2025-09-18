@@ -99,13 +99,10 @@
 </p>
 
 </td>
-</tr>
-</table>
+
+[![Sign my Guestbook](https://img.shields.io/badge/Sign%20my%20Guestbook-ff69b4?style=for-the-badge&logo=github)](../../issues/1)
+
+> Leave a comment on the issue to sign my guestbook.
 
 <!-- Guestbook -->
-_Sign my guestbook by leaving a comment on the issue!_
 <!-- /Guestbook -->
-
-
-
-
