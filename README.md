@@ -61,9 +61,9 @@
 <br>
 
 <h3>
-  <img src="images/chill-guy-pixel-art.gif" width="28" style="vertical-align:middle;margin-right:8px;" alt="chill pixel">
+  <img src="images/chill-guy-pixel-art.gif" width="35" style="vertical-align:middle;margin-right:8px;" alt="chill pixel">
   Just for Fun
-  <img src="images/chill-guy-pixel-art.gif" width="28" style="vertical-align:middle;margin-right:8px;" alt="chill pixel">
+  <img src="images/chill-guy-pixel-art.gif" width="35" style="vertical-align:middle;margin-right:8px;" alt="chill pixel">
 </h3>
 
 <br>
