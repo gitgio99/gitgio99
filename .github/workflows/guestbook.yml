@@ -65,7 +65,7 @@ jobs:
             const withBr = (s='') => esc(s).replace(/\r?\n/g,'<br />');
 
             // 3) 시간 포맷 (UTC). 한국 시간 원하면 'Asia/Seoul' 로 변경
-            const fmt = iso => new Date(iso).toLocaleString('en-US', { timeZone:'UTC', hour12:false });
+            const fmt = iso => new Date(iso).toLocaleString('en-US', { timeZone:'Asia/Seoul', hour12:false });
 
             // 4) 채팅 버블(최근 20개) + 스크롤 컨테이너
             const MAX = 20;
