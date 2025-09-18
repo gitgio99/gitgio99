@@ -102,8 +102,11 @@
 </tr>
 </table>
 
+<br>
+<br>
 <!-- Guestbook -->
 _Sign my guestbook by leaving a comment on the issue!_
 
 <!-- /Guestbook -->
+[Sign my Guestbook](../../issues/1)
 
