@@ -100,7 +100,7 @@
 
 </td>
 </tr>
-
+</table>
 
 <!-- Guestbook -->
 _Sign my guestbook by leaving a comment on the issue!_
