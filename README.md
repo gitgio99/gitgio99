@@ -124,7 +124,19 @@
   <div style="flex:1;">
     <div style="display:flex; align-items:baseline; gap:8px; flex-wrap:wrap;">
       <a href="https://github.com/gitgio99" target="_blank" style="font-weight:600; text-decoration:none;">gitgio99</a>
-      <a href="https://github.com/gitgio99/gitgio99/issues/1#issuecomment-3309368372" target="_blank" style="color:#64748b; font-size:12px; text-decoration:none;">9/18/2025, 19:42:38</a>
+      <a href="https://github.com/gitgio99/gitgio99/issues/1#issuecomment-3309445790" target="_blank" style="color:#64748b; font-size:12px; text-decoration:none;">9/19/2025, 04:57:45</a>
+    </div>
+    <div style="background:#f6f8fa; border:1px solid #e5e7eb; border-radius:10px; padding:10px; margin-top:6px; line-height:1.5;">시간바꾸기</div>
+  </div>
+</div>
+<div style="display:flex; gap:10px; margin:10px 0;">
+  <a href="https://github.com/gitgio99" target="_blank" style="text-decoration:none;">
+    <img src="https://avatars.githubusercontent.com/u/69615755?s=40&v=4" alt="gitgio99" width="40" height="40" style="border-radius:50%;"/>
+  </a>
+  <div style="flex:1;">
+    <div style="display:flex; align-items:baseline; gap:8px; flex-wrap:wrap;">
+      <a href="https://github.com/gitgio99" target="_blank" style="font-weight:600; text-decoration:none;">gitgio99</a>
+      <a href="https://github.com/gitgio99/gitgio99/issues/1#issuecomment-3309368372" target="_blank" style="color:#64748b; font-size:12px; text-decoration:none;">9/19/2025, 04:42:38</a>
     </div>
     <div style="background:#f6f8fa; border:1px solid #e5e7eb; border-radius:10px; padding:10px; margin-top:6px; line-height:1.5;">test1</div>
   </div>
@@ -136,7 +148,7 @@
   <div style="flex:1;">
     <div style="display:flex; align-items:baseline; gap:8px; flex-wrap:wrap;">
       <a href="https://github.com/gitgio99" target="_blank" style="font-weight:600; text-decoration:none;">gitgio99</a>
-      <a href="https://github.com/gitgio99/gitgio99/issues/1#issuecomment-3309362633" target="_blank" style="color:#64748b; font-size:12px; text-decoration:none;">9/18/2025, 19:41:29</a>
+      <a href="https://github.com/gitgio99/gitgio99/issues/1#issuecomment-3309362633" target="_blank" style="color:#64748b; font-size:12px; text-decoration:none;">9/19/2025, 04:41:29</a>
     </div>
     <div style="background:#f6f8fa; border:1px solid #e5e7eb; border-radius:10px; padding:10px; margin-top:6px; line-height:1.5;">ㅎㅇ</div>
   </div>
@@ -148,7 +160,7 @@
   <div style="flex:1;">
     <div style="display:flex; align-items:baseline; gap:8px; flex-wrap:wrap;">
       <a href="https://github.com/gitgio99" target="_blank" style="font-weight:600; text-decoration:none;">gitgio99</a>
-      <a href="https://github.com/gitgio99/gitgio99/issues/1#issuecomment-3309175520" target="_blank" style="color:#64748b; font-size:12px; text-decoration:none;">9/18/2025, 19:00:55</a>
+      <a href="https://github.com/gitgio99/gitgio99/issues/1#issuecomment-3309175520" target="_blank" style="color:#64748b; font-size:12px; text-decoration:none;">9/19/2025, 04:00:55</a>
     </div>
     <div style="background:#f6f8fa; border:1px solid #e5e7eb; border-radius:10px; padding:10px; margin-top:6px; line-height:1.5;">ㅇㅇ</div>
   </div>
