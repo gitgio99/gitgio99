@@ -60,22 +60,20 @@ jobs:
             const MAX = 10;
             const recent = nodes.slice(0, MAX);
 
-            const bubbles = recent.map(c => `
-<div style="display:flex; gap:10px; margin:10px 0;">
-  <a href="${c.author.url}" target="_blank" style="text-decoration:none;">
-    <img src="${c.author.avatarUrl}" alt="${esc(c.author.login)}" width="40" height="40" style="border-radius:50%;"/>
-  </a>
-  <div style="flex:1;">
-    <div style="display:flex; align-items:baseline; gap:8px; flex-wrap:wrap;">
-      <a href="${c.author.url}" target="_blank" style="font-weight:600; text-decoration:none;">${esc(c.author.login)}</a>
-      <a href="${c.url}" target="_blank" style="color:#64748b; font-size:12px; text-decoration:none;">${fmt(c.updatedAt)}</a>
-    </div>
-    <div style="background:#f6f8fa; border:1px solid #e5e7eb; border-radius:10px; padding:10px; margin-top:6px; line-height:1.5;">
-      ${withBr(c.body)}
-    </div>
-  </div>
-</div>
-            `).join('\n');
+            const bubbles = recent.map(c => [
+  '<div style="display:flex; gap:10px; margin:10px 0;">',
+  `  <a href="${c.author.url}" target="_blank" style="text-decoration:none;">`,
+  `    <img src="${c.author.avatarUrl}" alt="${esc(c.author.login)}" width="40" height="40" style="border-radius:50%;"/>`,
+  '  </a>',
+  '  <div style="flex:1;">',
+  '    <div style="display:flex; align-items:baseline; gap:8px; flex-wrap:wrap;">',
+  `      <a href="${c.author.url}" target="_blank" style="font-weight:600; text-decoration:none;">${esc(c.author.login)}</a>`,
+  `      <a href="${c.url}" target="_blank" style="color:#64748b; font-size:12px; text-decoration:none;">${fmt(c.updatedAt)}</a>`,
+  '    </div>',
+  `    <div style="background:#f6f8fa; border:1px solid #e5e7eb; border-radius:10px; padding:10px; margin-top:6px; line-height:1.5;">${withBr(c.body)}</div>`,
+  '  </div>',
+  '</div>'
+].join('\n')).join('\n');
 
             // 4) 스크롤 컨테이너
             const container = `
