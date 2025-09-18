@@ -73,7 +73,7 @@
 <tr>
 <td align="center" width="50%">
 <a href="https://www.youtube.com/watch?v=CID-sYQNCew&list=RDCID-sYQNCew&start_radio=1">
-<strong>My favorite movie</strong>
+<strong>Screen Pick 🎬</strong>
 <br />
 <br />
 
@@ -88,7 +88,7 @@
 
 <td align="center" width="50%">
 <a href="https://www.youtube.com/watch?v=n89SKAymNfA&list=RDn89SKAymNfA&start_radio=1">
-<strong>today's music</strong>
+<strong>Now Playing 🎧</strong>
 <br />
 <br />
 
