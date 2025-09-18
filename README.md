@@ -116,6 +116,31 @@
 [![Sign my Guestbook](https://img.shields.io/badge/Sign%20my%20Guestbook-ff69b4?style=for-the-badge&logo=github)](../../issues/1)
 
 <!-- Guestbook -->
-<!-- /Guestbook -->
+<div style="max-height:360px; overflow-y:auto; padding:6px 8px; border:1px solid #e5e7eb; border-radius:12px; background:#fff;">
+<div style="display:flex; gap:10px; margin:10px 0;">
+  <a href="https://github.com/gitgio99" target="_blank" style="text-decoration:none;">
+    <img src="https://avatars.githubusercontent.com/u/69615755?s=40&v=4" alt="gitgio99" width="40" height="40" style="border-radius:50%;"/>
+  </a>
+  <div style="flex:1;">
+    <div style="display:flex; align-items:baseline; gap:8px; flex-wrap:wrap;">
+      <a href="https://github.com/gitgio99" target="_blank" style="font-weight:600; text-decoration:none;">gitgio99</a>
+      <a href="https://github.com/gitgio99/gitgio99/issues/1#issuecomment-3309362633" target="_blank" style="color:#64748b; font-size:12px; text-decoration:none;">9/18/2025, 19:41:29</a>
+    </div>
+    <div style="background:#f6f8fa; border:1px solid #e5e7eb; border-radius:10px; padding:10px; margin-top:6px; line-height:1.5;">ㅎㅇ</div>
+  </div>
+</div>
+<div style="display:flex; gap:10px; margin:10px 0;">
+  <a href="https://github.com/gitgio99" target="_blank" style="text-decoration:none;">
+    <img src="https://avatars.githubusercontent.com/u/69615755?s=40&v=4" alt="gitgio99" width="40" height="40" style="border-radius:50%;"/>
+  </a>
+  <div style="flex:1;">
+    <div style="display:flex; align-items:baseline; gap:8px; flex-wrap:wrap;">
+      <a href="https://github.com/gitgio99" target="_blank" style="font-weight:600; text-decoration:none;">gitgio99</a>
+      <a href="https://github.com/gitgio99/gitgio99/issues/1#issuecomment-3309175520" target="_blank" style="color:#64748b; font-size:12px; text-decoration:none;">9/18/2025, 19:00:55</a>
+    </div>
+    <div style="background:#f6f8fa; border:1px solid #e5e7eb; border-radius:10px; padding:10px; margin-top:6px; line-height:1.5;">ㅇㅇ</div>
+  </div>
+</div>
+</div><!-- /Guestbook -->
 
 
