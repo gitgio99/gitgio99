@@ -15,10 +15,14 @@
 <img hight="200" width="500" alt="GIF" align="center" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmFoNDF0czFhbTU2bjlxanI0Z3o3ZTYwaHYya3pqbWNjenI5d3VpYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dxn6fRlTIShoeBr69N/giphy.gif">
 </div>
 <br>
-Hi, I'm Jioh
-I'm interested in  🔧 Embedded | 🤖 AI | 📊 Data Analysis 
-<br>
-<br>
+
+<div align="center">
+<p style="margin:0">
+  <img src="images/2bullets852%20on%20Planet%20Minecraft.gif" alt="vibe" width="50" style="vertical-align:middle;margin-left:8px;">
+  <strong>I'm interested in 🔧 Embedded | 🤖 AI | 📊 Data Analysis</strong>
+  <img src="images/2bullets852%20on%20Planet%20Minecraft.gif" alt="vibe" width="50" style="vertical-align:middle;margin-left:8px;">
+</p>
+</div>
 <br>
 
 ### 🛠 Tech Stack
