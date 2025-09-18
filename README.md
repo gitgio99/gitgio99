@@ -113,8 +113,9 @@
 </div>
 <br>
 
+[![Sign my Guestbook](https://img.shields.io/badge/Sign%20my%20Guestbook-ff69b4?style=for-the-badge&logo=github)](../../issues/1)
+
 <!-- Guestbook -->
 <!-- /Guestbook -->
 
-[Sign my Guestbook](../../issues/1)
 
