@@ -1,13 +1,11 @@
-name: Update Guestbook
+name: Update Guestbook (cards)
 
 on:
-  issue_comment:
-    types: [created, edited, deleted]
-  issues:
-    types: [opened, edited, deleted]
+  issue_comment: { types: [created, edited, deleted] }
+  issues:        { types: [opened, edited, deleted] }
   workflow_dispatch:
   schedule:
-    - cron: "0 */12 * * *" # 선택: 12시간마다 재생성
+    - cron: "0 */12 * * *"
 
 permissions:
   contents: write
@@ -18,13 +16,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - name: Build guestbook table and update README
-        uses: actions/github-script@v7
+      - uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const ISSUE_NUMBER = 1; // <- 이슈 번호
+            const ISSUE_NUMBER = 1; // <-- Guestbook 이슈 번호
 
             const query = `
               query($owner:String!, $name:String!, $issue_number:Int!, $after:String) {
@@ -32,7 +28,7 @@ jobs:
                   issue(number:$issue_number) {
                     comments(first:100, orderBy:{direction:DESC, field:UPDATED_AT}, after:$after) {
                       nodes {
-                        author { avatarUrl(size: 48) login url }
+                        author { avatarUrl(size: 64) login url }
                         url
                         body
                         updatedAt
@@ -45,7 +41,7 @@ jobs:
 
             const vars = { owner: context.repo.owner, name: context.repo.repo, issue_number: ISSUE_NUMBER, after: null };
 
-            // 모든 댓글 수집
+            // 모든 댓글 수집 (페이지네이션)
             let nodes = [];
             while (true) {
               const res = await github.graphql(query, vars);
@@ -55,34 +51,55 @@ jobs:
               vars.after = page.pageInfo.endCursor;
             }
 
+            // 안전 처리: 기본 HTML escape + 줄바꿈 보존
             const esc = (s='') => s
-              .replace(/[\u0000-\u001F]/g, '')
-              .replace(/\|/g, '&#124;')
-              .replace(/\[/g, '&#91;').replace(/\]/g, '&#93;')
+              .replace(/&/g, '&amp;')
               .replace(/</g, '&lt;').replace(/>/g, '&gt;')
-              .replace(/`/g, '&#96;')
-              .replace(/\r?\n/g, '<br />');
+              .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+            const withBreaks = (s='') => esc(s).replace(/\r?\n/g, '<br />');
 
+            // 날짜 포맷 (UTC → 필요시 Asia/Seoul로 교체 가능)
             const fmt = iso => new Date(iso).toLocaleString('en-US', { timeZone: 'UTC', hour12: false });
 
-            const header = "| Name | Date | Message |\n|---|---|---|\n";
-            const body = nodes.reduce((acc, c) => {
-              const name = `[<img src="${c.author.avatarUrl}" alt="${c.author.login}" width="48" /><br />${esc(c.author.login)}](${c.author.url})`;
-              const date = `${fmt(c.updatedAt)}<br />[Open ↗](${c.url})`;
-              return acc + `| ${name} | ${date} | ${esc(c.body)} |\n`;
-            }, "");
-            const table = header + body;
+            // 카드 HTML 생성
+            const cards = nodes.map(c => `
+<div style="display:flex;gap:12px;align-items:flex-start;border:1px solid #e5e7eb;border-radius:10px;padding:12px;margin:8px 0;">
+  <a href="${c.author.url}" target="_blank" style="text-decoration:none;">
+    <img src="${c.author.avatarUrl}" alt="${esc(c.author.login)}" width="64" height="64" style="border-radius:50%;"/>
+  </a>
+  <div style="flex:1;">
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;">
+      <div>
+        <a href="${c.author.url}" target="_blank" style="font-weight:600;text-decoration:none;">${esc(c.author.login)}</a>
+        <span style="color:#64748b;font-size:12px;margin-left:8px;">
+          <a href="${c.url}" target="_blank" style="color:#64748b;text-decoration:none;">${fmt(c.updatedAt)}</a>
+        </span>
+      </div>
+    </div>
+    <div style="margin-top:6px;line-height:1.5;font-size:14px;">
+      ${withBreaks(c.body)}
+    </div>
+  </div>
+</div>
+            `).join("\n");
 
+            const container = `
+<div>
+  ${cards || '<div style="color:#64748b;">No entries yet — be the first!</div>'}
+</div>
+            `.trim();
+
+            // README 마커 사이 교체
             const fs = require('fs');
             const path = 'README.md';
             const start = '<!-- Guestbook -->';
             const end = '<!-- /Guestbook -->';
             const readme = fs.readFileSync(path, 'utf8');
-            const re = new RegExp(`(?<=${start}[\\s\\S]*?\\n)[\\s\\S]*?(?=${end}|$(?![\\n]))`, 'm');
 
+            const re = new RegExp(`(?<=${start}[\\s\\S]*?\\n)[\\s\\S]*?(?=${end}|$(?![\\n]))`, 'm');
             const next = readme.match(re)
-              ? readme.replace(re, table)
-              : readme.replace(start, `${start}\n${table}\n`);
+              ? readme.replace(re, container)
+              : readme.replace(start, `${start}\n${container}\n`);
 
             if (next !== readme) {
               fs.writeFileSync(path, next, 'utf8');
@@ -91,7 +108,7 @@ jobs:
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 path,
-                message: 'chore: update guestbook',
+                message: 'chore: update guestbook (cards)',
                 content: Buffer.from(next).toString('base64'),
                 sha: data.sha
               });
