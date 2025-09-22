@@ -118,6 +118,18 @@
 <!-- Guestbook -->
 <div style="max-height:360px; overflow-y:auto; padding:6px 8px; border:1px solid #e5e7eb; border-radius:12px; background:#fff;">
 <div style="display:flex; gap:10px; margin:10px 0;">
+  <a href="https://github.com/garden14" target="_blank" style="text-decoration:none;">
+    <img src="https://avatars.githubusercontent.com/u/113659080?s=40&u=d4a28ec63db6dad31d35607848af17f16886f6e4&v=4" alt="garden14" width="40" height="40" style="border-radius:50%;"/>
+  </a>
+  <div style="flex:1;">
+    <div style="display:flex; align-items:baseline; gap:8px; flex-wrap:wrap;">
+      <a href="https://github.com/garden14" target="_blank" style="font-weight:600; text-decoration:none;">garden14</a>
+      <a href="https://github.com/gitgio99/gitgio99/issues/1#issuecomment-3317973099" target="_blank" style="color:#64748b; font-size:12px; text-decoration:none;">9/22/2025, 19:06:00</a>
+    </div>
+    <div style="background:#f6f8fa; border:1px solid #e5e7eb; border-radius:10px; padding:10px; margin-top:6px; line-height:1.5;">느낌있으십니다</div>
+  </div>
+</div>
+<div style="display:flex; gap:10px; margin:10px 0;">
   <a href="https://github.com/Jihye511" target="_blank" style="text-decoration:none;">
     <img src="https://avatars.githubusercontent.com/u/129932517?s=40&u=24c6120db783742d1ecf8130fb96cbf403d85a96&v=4" alt="Jihye511" width="40" height="40" style="border-radius:50%;"/>
   </a>
