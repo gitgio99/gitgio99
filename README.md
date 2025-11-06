@@ -118,6 +118,18 @@
 <!-- Guestbook -->
 <div style="max-height:360px; overflow-y:auto; padding:6px 8px; border:1px solid #e5e7eb; border-radius:12px; background:#fff;">
 <div style="display:flex; gap:10px; margin:10px 0;">
+  <a href="https://github.com/realyuna" target="_blank" style="text-decoration:none;">
+    <img src="https://avatars.githubusercontent.com/u/80978510?s=40&u=a7619e84170e8301e14b18468540f0baf3e09a17&v=4" alt="realyuna" width="40" height="40" style="border-radius:50%;"/>
+  </a>
+  <div style="flex:1;">
+    <div style="display:flex; align-items:baseline; gap:8px; flex-wrap:wrap;">
+      <a href="https://github.com/realyuna" target="_blank" style="font-weight:600; text-decoration:none;">realyuna</a>
+      <a href="https://github.com/gitgio99/gitgio99/issues/1#issuecomment-3495878116" target="_blank" style="color:#64748b; font-size:12px; text-decoration:none;">11/6/2025, 17:37:38</a>
+    </div>
+    <div style="background:#f6f8fa; border:1px solid #e5e7eb; border-radius:10px; padding:10px; margin-top:6px; line-height:1.5;">유능한 청년.</div>
+  </div>
+</div>
+<div style="display:flex; gap:10px; margin:10px 0;">
   <a href="https://github.com/garden14" target="_blank" style="text-decoration:none;">
     <img src="https://avatars.githubusercontent.com/u/113659080?s=40&u=d4a28ec63db6dad31d35607848af17f16886f6e4&v=4" alt="garden14" width="40" height="40" style="border-radius:50%;"/>
   </a>
