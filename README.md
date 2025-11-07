@@ -53,8 +53,11 @@
 [![Email](https://img.shields.io/badge/Email-wldh0026%40gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:wldh0026@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/지오-전-58a368362)
 
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gitgio99&layout=compact&theme=radical&cache_seconds=1)
+[![wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=gitgio99&theme=radical)](https://wakatime.com/@gitgio99)
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=gitgio99&show_icons=true&theme=radical) | ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gitgio99&layout=compact&theme=radical)
+
+![Top Langs by lines](https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=gitgio99&layout=compact&langs_count=10&theme=tokyonight)
 
 
 <br>
