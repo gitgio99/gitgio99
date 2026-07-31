@@ -39,12 +39,7 @@
   <!-- Keil: 로고 없으면 텍스트형, ARM 로고 대체 or 커스텀 로고 -->
   <img src="https://img.shields.io/badge/Keil_uVision-0083AB?style=for-the-badge&logo=arm&logoColor=white"/>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
   <br/>
-
-  <!-- Editors -->
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
 
 </p>
 
