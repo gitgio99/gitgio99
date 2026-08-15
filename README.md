@@ -46,7 +46,7 @@
 
 ### 🌍 Connect
 [![Email](https://img.shields.io/badge/Email-wldh0026%40gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:wldh0026@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/지오-전-58a368362)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/jioh-jeon-58a368362)
 
 [Top Langs (click to view)](https://github-readme-stats-gitgio99s-projects.vercel.app/api/top-langs/?username=gitgio99&layout=compact&theme=radical&count_private=true&cache_seconds=60)
 [my GitHub Stats (click to view)](https://github-readme-stats-gitgio99s-projects.vercel.app/api?username=gitgio99&show_icons=true&theme=radical&count_private=true)
