@@ -56,48 +56,6 @@
 <br>
 <br>
 
-<h3>
-  <img src="images/chill-guy-pixel-art.gif" width="35" style="vertical-align:middle;margin-right:8px;" alt="chill pixel">
-  Just for Fun
-  <img src="images/chill-guy-pixel-art.gif" width="35" style="vertical-align:middle;margin-right:8px;" alt="chill pixel">
-</h3>
-
-<br>
-
-<!-- Social -->
-<table width="100%" align="center">
-<tr>
-<td align="center" width="50%">
-<a href="https://www.youtube.com/watch?v=CID-sYQNCew&list=RDCID-sYQNCew&start_radio=1">
-<strong>Screen Pick 🎬</strong>
-<br />
-<br />
-
-<p>
-
-<img alt="My favorite movie" width="260" height="180" src="images/levi.gif" style="object-fit:cover;">
-</a>
-</p>
-
-</td>
-
-
-<td align="center" width="50%">
-<a href="https://www.youtube.com/watch?v=n89SKAymNfA&list=RDn89SKAymNfA&start_radio=1">
-<strong>Now Playing 🎧</strong>
-<br />
-<br />
-
-
-<p>
-<img width="260" height="160" alt="today's music" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWQ0emo0MDVnYjltcHF2Mzk2bTdmYWZzcTFtOTNsbHowbjJsNHhvcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ku5EcFe4PNGWA/giphy.gif"  style="object-fit:cover;"> 
-</a>
-</p>
-
-</td>
-</tr>
-</table>
-
 <br>
 <br>
 <div align="center">
