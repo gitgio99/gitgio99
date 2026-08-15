@@ -1,15 +1,11 @@
 <h1>
   <a href="https://github.com/gitgio99">
-    <img src="https://img.shields.io/badge/gitgio99-c0e07f?style=for-the-badge&logo=pinboard&logoColor=white" height="48" />
     <img src="https://img.shields.io/badge/Name-전지오-c0e07f?style=for-the-badge&logo=github" height="48" />
     
   </a>
 </h1>
 
 [![JiOh](https://img.shields.io/badge/𝐉𝐢𝐎𝐡-EN-0b84fe?style=social&logo=pinboard&logoColor=0b84fe)](https://github.com/gitgio99)
-[![祉晤](https://img.shields.io/badge/祉晤-CN-dd7469?style=social&logo=pinboard&logoColor=dd7469)](https://github.com/gitgio99)
-[![ジオ](https://img.shields.io/badge/ジオ-JP-ffa500?style=social&logo=pinboard&logoColor=ff1493)](https://github.com/gitgio99)
-
 
 <div align="center">
 <img hight="200" width="500" alt="GIF" align="center" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmFoNDF0czFhbTU2bjlxanI0Z3o3ZTYwaHYya3pqbWNjenI5d3VpYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dxn6fRlTIShoeBr69N/giphy.gif">
@@ -36,8 +32,6 @@
 
   <!-- Embedded + OS/Tools -->
   <img src="https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white"/>
-  <!-- Keil: 로고 없으면 텍스트형, ARM 로고 대체 or 커스텀 로고 -->
-  <img src="https://img.shields.io/badge/Keil_uVision-0083AB?style=for-the-badge&logo=arm&logoColor=white"/>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
   <br/>
 
@@ -47,11 +41,6 @@
 ### 🌍 Connect
 [![Email](https://img.shields.io/badge/Email-wldh0026%40gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:wldh0026@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/jioh-jeon-58a368362)
-
-[Top Langs (click to view)](https://github-readme-stats-gitgio99s-projects.vercel.app/api/top-langs/?username=gitgio99&layout=compact&theme=radical&count_private=true&cache_seconds=60)
-[my GitHub Stats (click to view)](https://github-readme-stats-gitgio99s-projects.vercel.app/api?username=gitgio99&show_icons=true&theme=radical&count_private=true)
-
-![wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=gitgio99&theme=radical)
 
 <br>
 <br>
